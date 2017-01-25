@@ -1,17 +1,15 @@
 # Watson Data Platform - Introduction tutorial for Data Engineer
-These instructions and some files needed in the tutorials are provided at:  https://github.com/jruponen/wdp_de_tutorial
+These instructions (and some related files, if any) are provided at:  https://github.com/jruponen/wdp_de_tutorial
 
 
-###Tutorial in short:
-1. Set up a simple Data Lake
-2. Refine & ingest data
+###This tutorial in short:
+1. Set up a simple Data Lake in Bluemix
+2. Refine & ingest data with Data Connect
 3. Catalog the data in Data Science Experience
 
 
-For more information about IBM Watson Data Platform, go to:
+For more information about the IBM Watson Data Platform, go to:  
 https://www.ibm.com/analytics/us/en/watson-data-platform/platform.html
-
-If you are a Business Partner, learn more & take courses at:
 
 
 ##STEP 1 - SET UP A SIMPLE DATA LAKE
@@ -163,12 +161,12 @@ Note: Should you also need a raw data store for collecting data, you may want to
 	  11		Infinity
 	  11		Retro
 	  11		Zone
-	  9		Sam
-	  9		Hawk Eye
-	  6		Polar Sun
-	  6		Inferno
-	  6		Polar Sports
-	  4		Lux
+	   9		Sam
+	   9		Hawk Eye
+	   6		Polar Sun
+	   6		Inferno
+	   6		Polar Sports
+	   4		Lux
 
 
 End of STEP 2
