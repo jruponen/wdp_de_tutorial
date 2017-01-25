@@ -5,7 +5,7 @@ These instructions and some files needed in the tutorials are provided at:  http
 ###Tutorial in short:
 1. Set up a simple Data Lake
 2. Refine & ingest data
-3. Catalog the data in DSx
+3. Catalog the data in Data Science Experience
 
 
 For more information about IBM Watson Data Platform, go to:
@@ -17,7 +17,7 @@ If you are a Business Partner, learn more & take courses at:
 ##STEP 1 - SET UP A SIMPLE DATA LAKE
 (10 min)
 
-	1. Login to Bluemix.net
+	1. Login to http://bluemix.net
 	- Make sure you are using "US South" region.
 
 	2. Open Bluemix Catalog
@@ -50,13 +50,13 @@ If you are a Business Partner, learn more & take courses at:
 	- On the left navigation, select "Connect"
 	- You can either Copy-Paste the "Database details" aside, or you can leave this browser tab open to come back here later for this information.
 
-	End of STEP 1
+End of STEP 1
 
-	You have now set up the following:
-	- dashDB as an analytic data store
-	- Data Connect for data ingestion
+Congratulations, you have now set up the following:
+- dashDB as an analytic data store
+- Data Connect for data ingestion
 
-	Note: Should you also need a raw data store for collecting data, you may want to try out Cloudant NoSQL data store for simplicity. The easiest way to set up a Cloudant NoSQL data store along with data collection tools is to set up a "Note-RED Starter" boilerplate (which is also found in the Bluemix Catalog).
+Note: Should you also need a raw data store for collecting data, you may want to try out Cloudant NoSQL data store for simplicity. The easiest way to set up a Cloudant NoSQL data store along with data collection tools is to set up a "Note-RED Starter" boilerplate (which is also found in the Bluemix Catalog).
 
 
 ##STEP 2 - REFINE & INGEST DATA
@@ -171,16 +171,16 @@ If you are a Business Partner, learn more & take courses at:
 	  4		Lux
 
 
-	End of STEP 2
+End of STEP 2
 
-	You have now refined & joined new data and ingested it to the data lake.
-	If you got any errors, verify the script.
+Congratulations, you have now refined & joined new data and ingested it to the data lake.
+If you got any errors in the last step, verify your SQL script (did you change the schema name?).
 
 
 ## STEP 3 - CATALOG THE DATA
 (10 min)
 
-	1. Login to http://datascience.ibm.com
+	1. Login to  http://datascience.ibm.com
 
 	2. Define a connection for dashDB
 	- Click the drop-down menu on top left corner and select "Connections"
@@ -240,7 +240,7 @@ If you are a Business Partner, learn more & take courses at:
 	- This is the statistics of the data and assets in this data Catalog.
 
 
-	End of STEP 3
+End of STEP 3
 
-	You have now finnished the exercise as Data Engineer by catalogging new data for data scientists to re-use.
-	From here on, Data Engineers would create new projects around the catalogs and iteratively analyze data using Notebooks for machine learning with Spark and R. In addition to data in catalog, they may also load their own data ad hoc, or capture streaming data.
+Congratulations! You have now finnished the WDP exercise as Data Engineer by catalogging new data for data scientists to re-use.
+From here on, Data Engineers would create new projects around the catalogs and iteratively analyze data using Notebooks for machine learning with Spark and R. In addition to data in catalog, they may also load their own data ad hoc, or capture streaming data.
