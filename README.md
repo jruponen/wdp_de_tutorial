@@ -2,7 +2,7 @@
 These instructions (and some related files, if any) are provided at:  https://github.com/jruponen/wdp_de_tutorial
 
 
-###This tutorial in short:
+### This tutorial in short:
 1. Set up a simple Data Lake in Bluemix
 2. Refine & ingest data with Data Connect
 3. Catalog the data in Data Science Experience
@@ -12,7 +12,7 @@ For more information about the IBM Watson Data Platform, go to:
 https://www.ibm.com/analytics/us/en/watson-data-platform/platform.html
 
 
-##STEP 1 - SET UP A SIMPLE DATA LAKE
+## STEP 1 - SET UP A SIMPLE DATA LAKE
 (10 min)
 
 	1. Login to http://bluemix.net
@@ -57,7 +57,7 @@ Congratulations, you have now set up the following:
 Note: Should you also need a raw data store for collecting data, you may want to try out Cloudant NoSQL data store for simplicity. The easiest way to set up a Cloudant NoSQL data store along with data collection tools is to set up a "Note-RED Starter" boilerplate (which is also found in the Bluemix Catalog).
 
 
-##STEP 2 - REFINE & INGEST DATA
+## STEP 2 - REFINE & INGEST DATA
 (15 min)
 
 	1. Open "Data Connect" service
